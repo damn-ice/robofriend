@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 
 class ErrorBoundary extends Component {
+    // This props passed down not necessary in class but good for understanding...
+    // Although required in functions...
     constructor(props) {
         super(props);
         this.state = {
